@@ -62,7 +62,7 @@ $( ".btn" ).click(function() {
 })
 
 function playSound(colorName){
-    var audio = new Audio("sounds/" + colorName + ".mp3");
+    var audio = new Audio(colorName + ".mp3");
     audio.play();
 }
 
